@@ -22,4 +22,50 @@ footer .card-header {
 
 footer .card-body {
   background-color: rgb(135, 206, 235);
+  color: rgb(0, 0, 0);
+  text-align: center;
+}
+#home1 {
+  background-color: rgba(255, 255, 255, 50%);
+  padding: 40px;
+  margin-bottom: 70px;
+  text-align: justify;
+  font-family: Cinzel;
+}
+
+#home2 {
+  background-color: rgba(255, 255, 255, 50%);
+  padding: 40px;
+  text-align: justify;
+  font-family: Cinzel;
+  margin-bottom: 70px;
+}
+#imghome {
+  text-align: center;
+}
+#imghome img {
+  width: 500px;
+  height: 350px;
+  margin: 0 20px;
+  border-radius: 100%;
+  margin-bottom: 20px;
+  transition: ease 2s;
+}
+#imghome img:hover {
+  opacity: 80%;
+  cursor: pointer;
+}
+#imgLazer img {
+  width: 400px;
+  height: 250px;
+  margin: 10px;
+  cursor: pointer;
+  border-radius: 10%;
+}
+#imgLazer {
+  text-align: center;
+  margin: 40px;
+}
+#imgLazer img:hover {
+  opacity: 80%;
 }
